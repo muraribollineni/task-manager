@@ -43,8 +43,8 @@ function App() {
   return (
     <div className="container">
       <h1>Task Manager</h1>
+      <h1>My First CI/CD Application</h1>
       <p>My DevOps Practice Application</p>
-
       <form onSubmit={addTask}>
         <input
           value={task}
